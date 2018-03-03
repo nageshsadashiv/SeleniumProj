@@ -4,6 +4,7 @@
   <test name="Test" parallel="classes">
     <classes>
       <class name="testcases.TC002_CreateLead"/>
+      <class name="testcases.TC003_EditLead"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
