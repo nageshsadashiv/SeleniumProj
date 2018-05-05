@@ -13,7 +13,8 @@ public abstract class Reporter {
 
 	public static ExtentHtmlReporter html;
 	public static ExtentReports extent;
-	public static ExtentTest test, suiteTest;
+	public ExtentTest test;
+	public ExtentTest suiteTest;
 	public String testCaseName, testNodes, testDescription, category, authors;
 
 
